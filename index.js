@@ -14,7 +14,7 @@ function greet(time) {
   } else if (parseInt(time) < 17) {
     return "Good Evening";
   } else {
-  return "Good Afternoon";
+    return "Good Afternoon";
   }
 }
 /* Write your implementation of displayMessage() */
