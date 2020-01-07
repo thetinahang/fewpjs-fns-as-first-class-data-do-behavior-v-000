@@ -9,10 +9,13 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  const hour = parseInt(time, 10);
-  if hour < 12 return "Good Morning";
-  if hour > 17 return "Good Evening";
-  return "Good Afternoon"
+  if (parseInt(time) < 12) {
+    return "Good Morning";
+  } else if (parseInt(time) < 17) {
+    return "Good Evening";
+  } else {
+  return "Good Afternoon";
+  }
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(message) {
